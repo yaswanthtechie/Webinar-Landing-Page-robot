@@ -157,7 +157,7 @@ function App() {
                     onClick={scrollToRegistration}
                     className="bg-gradient-to-r from-blue-400 to-purple-400 text-white font-medium py-4 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 hover:from-blue-500 hover:to-purple-500 focus:outline-none focus:ring-4 focus:ring-blue-400/50"
                   >
-                    Reserve My Free Seat
+                    Reserve Free Seat
                   </button>
                 </div>
               </div>
