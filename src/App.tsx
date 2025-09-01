@@ -12,6 +12,7 @@ import { Footer } from './components/ui/footer';
 import { SplineScene } from './components/ui/spline';
 import { Spotlight } from './components/ui/spotlight';
 import { FormData } from './types/form';
+import StickyBottomBar from './components/StickyBottomBar';
 import { submitToGoogleSheets } from './services/googleSheets';
 
 function App() {
@@ -276,6 +277,8 @@ function App() {
           }}
         />
       </div>
+      {/* Sticky Bottom Bar */}
+      <StickyBottomBar onReserveClick={scrollToRegistration} />
     </div>
   );
 }
