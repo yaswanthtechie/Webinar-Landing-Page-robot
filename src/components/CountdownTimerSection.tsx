@@ -2,7 +2,8 @@ import React from 'react';
 import AnimatedNumberCountdown from '@/components/ui/countdown-number';
 
 const CountdownTimerSection: React.FC = () => {
-  const webinarDate = new Date("2025-09-07T14:00:00+05:30"); // September 7, 2025, 2:00 PM IST
+  // Corrected the time to 6:00 PM IST to match the rest of the application
+  const webinarDate = new Date("2025-09-07T18:00:00+05:30"); // September 7, 2025, 6:00 PM IST
 
   return (
     <section className="py-16 sm:py-24 relative">
