@@ -207,7 +207,7 @@ const RegistrationForm: React.FC<RegistrationFormProps> = ({ onSubmit, isSubmitt
         ) : (
           <>
             <Send className="w-5 h-5" />
-            Register for Webinar
+            Submit now
           </>
         )}
       </button>
