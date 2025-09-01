@@ -78,29 +78,35 @@ function App() {
           onClose={closeToast}
         />
         
-        {/* Header */}
-        <header className="bg-black/20 backdrop-blur-sm border-b border-white/10 sticky top-0 z-40">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex items-center justify-between">
-              <div className="flex items-center gap-3">
-                <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg flex items-center justify-center">
-                  <Award className="w-5 h-5 text-white" />
-                </div>
-                <span className="text-xl font-bold text-white">PrimoBoostAi</span>
-              </div>
-              <div className="hidden sm:flex items-center gap-6 text-sm text-white/80">
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-4 h-4" />
-                  <span>September 7, 2025</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Clock className="w-4 h-4" />
-                  <span>2:00 PM IST</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
+       {/* Header */}
+<header className="bg-black/20 backdrop-blur-sm border-b border-white/10 sticky top-0 z-40">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div className="flex items-center justify-between">
+      {/* Logo + Text */}
+      <div className="flex items-center gap-3">
+        <img
+          src="https://res.cloudinary.com/dlkovvlud/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1751536902/a-modern-logo-design-featuring-primoboos_XhhkS8E_Q5iOwxbAXB4CqQ_HnpCsJn4S1yrhb826jmMDw_nmycqj.jpg"
+          alt="PrimoBoostAI Logo"
+          className="w-8 h-8 rounded-full object-cover"
+        />
+        <span className="text-xl font-bold text-white">PrimoBoostAI</span>
+      </div>
+
+      {/* Date & Time */}
+      <div className="hidden sm:flex items-center gap-6 text-sm text-white/80">
+        <div className="flex items-center gap-2">
+          <Calendar className="w-4 h-4" />
+          <span>September 7, 2025</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <Clock className="w-4 h-4" />
+          <span>2:00 PM IST</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
 
         {/* Hero Section */}
         <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden">
@@ -237,10 +243,12 @@ function App() {
         {/* Footer */}
         <Footer
           logo={
-            <div className="w-8 h-8 bg-gradient-to-r from-blue-400 to-purple-400 rounded-lg flex items-center justify-center">
-              <Award className="w-5 h-5 text-white" />
-            </div>
-          }
+    <img
+      src="https://res.cloudinary.com/dlkovvlud/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1751536902/a-modern-logo-design-featuring-primoboos_XhhkS8E_Q5iOwxbAXB4CqQ_HnpCsJn4S1yrhb826jmMDw_nmycqj.jpg"
+      alt="PrimoBoostAI Logo"
+      className="w-8 h-8 rounded-full object-cover"
+    />
+  }
           brandName="PrimoBoostAi"
           socialLinks={[
             {
